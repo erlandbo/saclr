@@ -1,0 +1,4 @@
+- ImageNet1k : saclr-im1k
+- Other image datasets: saclr-otherimages
+- Detection: Convert resnet50_last.pth with convert-pretrain-to-detectron2_resnet50.py add weights to MoCo detection codebase: https://github.com/facebookresearch/moco
+- Transfer-learning:   Use vissl https://github.com/facebookresearch/vissl with resnet50_last.pth.

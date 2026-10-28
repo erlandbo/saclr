@@ -1,0 +1,4 @@
+*.txt
+*.pth
+!requirements.txt
+*.pkl
